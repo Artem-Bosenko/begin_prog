@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main implements IsSampleInterface {
+public class Main {
 
     public static void main(String[] args) {
         String b = "B204B";
@@ -38,10 +38,4 @@ public class Main implements IsSampleInterface {
         else return mas.length;
     }
 
-    @Override
-    public void doWork(Object myparam) throws Exception {
-        if(myparam == null) throw new Exception("Данные NULL");
-        myparam = 100;
-        System.out.println(myparam);
-    }
 }
