@@ -4,7 +4,7 @@ public class Main implements IsSampleInterface {
 
     public static void main(String[] args) {
         String b = "B204B";
-
+        System.out.println("Hell");
         int f = resolve(b);
         System.out.println(f);
 
